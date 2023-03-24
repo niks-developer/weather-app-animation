@@ -61,6 +61,7 @@ function displayResult(result) { // описание ф-ции
     
 
     getIcon();
+    // getIcon(condition);
 }
 
 
