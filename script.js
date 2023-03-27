@@ -17,8 +17,8 @@ function enter(e) {
 async function getInfo (data) { // параметр data нужен для сохранения и переноса информации
 const res = await fetch(`${api.endpoint}weather?q=${data}&lang=ru&units=metric&appID=${api.key}`); // результат это запрос на сторонний сервер и данным который ввел пользователь система , мы выбираем метрическую и ключ. все это копируется заучивать не надо
 const result = await res.json();
-console.log(result);
 displayResult(result); // функция показать результат в нашем приложении
+input.value = ""; // очищает поле ввода после получения данных о погоде
 }
 
 
