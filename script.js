@@ -161,7 +161,7 @@ function getIcon(condition) {
 
 }
 
-getInfo("Saint Petersburg,ru"); // при открытии старницы отображается актуальная погода в заданном городе
+getInfo("Saint Petersburg,ru"); // при открытии страницы отображается актуальная погода в заданном городе
 
 
 
