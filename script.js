@@ -159,12 +159,9 @@ function getIcon(condition) {
         weatherIcon.src = `icons_animated/50n.svg`;
     }
 
-
-    
-    
 }
 
-
+getInfo("Saint Petersburg,ru"); // при открытии старницы отображается актуальная погода в заданном городе
 
 
 
